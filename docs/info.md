@@ -9,10 +9,10 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-COMPUERTA AND
+COMPUERTA AND CDACACA CDACAD
 ## How to test
 
-COMPUERTA AND
+COMPUERTA AND  ACADAAS 
 ## External hardware
 
-LEDS
+LEDS DACDA
