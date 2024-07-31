@@ -25,8 +25,8 @@ module tt_um_AND (
 
   // List all unused inputs to prevent warnings
   wire _unused = &{ena, clk, rst_n, 1'b0};
-    wire _unused = &{ui_in [7:2], 6'b0};
-    wire _unused = &{uio_in [7:0], 8'b0};
+    wire _unu = &{ui_in [7:2], 6'b0};
+    wire _unued = &{uio_in [7:0], 8'b0};
 
 
 endmodule
