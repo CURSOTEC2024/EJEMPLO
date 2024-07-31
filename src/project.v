@@ -23,7 +23,7 @@ module tt_um_AND (
     assign uio_oe [7:0] = 8'b00000000;
   //assign uio_in = 8'b0;
   // List all unused inputs to prevent warnings
-    wire _unused = &{ena, clk, rst_n, ui_in [7:2], uio_in [7:0], 0};
+    wire _unused = &{ena, clk, rst_n, ui_in [7:2], uio_in [7:0], 1'b0};
       //wire _unu = &{ui_in [7:2], 6'b0};
       //wire _unued = &{uio_in [7:0], 8'b0};
 
