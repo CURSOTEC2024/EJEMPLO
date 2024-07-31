@@ -21,7 +21,7 @@ module tt_um_AND (
   C_AND C1 (.a(ui_in[0]), .b(ui_in[1]), .c(uo_out[0]));
   assign uio_out = 0;
   assign uio_oe = 0;
-  assign uio_in = 8'b0;
+  //assign uio_in = 8'b0;
 
   // List all unused inputs to prevent warnings
   wire _unused = &{ena, clk, rst_n, 1'b0};
