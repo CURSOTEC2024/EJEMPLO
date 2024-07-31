@@ -3,7 +3,7 @@ project:
   title:        "COMPUERTA_AND"      # Project title
   author:       "FRANCISCO DEL ANGEL"      # Your name
   discord:      "nule"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "COMPUERTA AND"      # One line description of what your project does
+  description:  "COMPUERTA_AND_CURSO"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -24,8 +24,8 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: "a"
-  ui[1]: "b"
+  ui[0]: "input_a"
+  ui[1]: "input_b"
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""
@@ -34,7 +34,7 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: "c"
+  uo[0]: "output_c"
   uo[1]: ""
   uo[2]: ""
   uo[3]: ""
